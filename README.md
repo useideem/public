@@ -1,4 +1,4 @@
 # Documentation
 
 ## Select Platform:
-- (Browser)[./docs/browser]
+- [Browser SDK](./docs/browser)
