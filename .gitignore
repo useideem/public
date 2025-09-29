@@ -1,0 +1,49 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies (if using tools like Docusaurus, VuePress, etc.)
+node_modules/
+
+# Python virtual environments
+venv/
+.env
+
+# Build output
+dist/
+build/
+out/
+_site/
+public/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Editor directories and files
+.idea/
+.vscode/
+*.code-workspace
+
+# Coverage reports
+coverage/
+
+# Jekyll
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Hugo
+resources/_gen/
+
+# MkDocs
+site/
+
+# Sphinx
+_build/
+
+# Backup files
+*~
