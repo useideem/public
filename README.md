@@ -1,2 +1,4 @@
-# public
-Public repository for documentation, example applications, and other useful information
+# Documentation
+
+## Select Platform:
+- (Browser)[./docs/browser]
