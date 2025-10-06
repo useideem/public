@@ -1,5 +1,4 @@
 # Browser Documentation
 
 ## Select Version:
-- [umfa](./umfa)
-- [fido](./fido)
+- [2.5.0](./2.5.0)
