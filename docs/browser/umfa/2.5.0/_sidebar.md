@@ -9,6 +9,8 @@
 * [Plugins](./src/plugins.md)
   * [Passkeys+ API Reference](./src/plugins/passkeys-plus.md)
 
+---
+
 [Version Support](./src/version_support.md)
 [Error Codes & Messages](./src/errors.md)
 [Glossary](./src/glossary.md)

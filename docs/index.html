@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ideem ZSM Client Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/custom.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script>
+      window.$docsify = {
+        name: 'Ideem ZSM Client Docs',
+        repo: 'https://github.com/useideem/public', // optional GitHub link
+        loadSidebar: true,           // looks for _sidebar.md
+        loadNavbar: true,            // looks for _navbar.md
+        subMaxLevel: 2,              // auto-generate h2/h3 in TOC
+        auto2top: true,
+        coverpage: false,            // set to true if you add _coverpage.md later
+        // routerMode: 'hash',       // keep hash mode; easiest on GitHub Pages
+        search: {
+          maxAge: 86400000,          // 1 day cache
+          paths: 'auto',             // or an array of paths
+          placeholder: 'Search...',
+        }
+      };
+    </script>
+
+    <!-- Docsify core -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <!-- Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+    <!-- Your JS last -->
+    <script src="assets/custom.js"></script>
+  </body>
+</html>
